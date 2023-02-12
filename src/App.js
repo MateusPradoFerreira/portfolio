@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { globalStyles } from './globalStyles';
+import { Header } from './layouts/Header';
+import { AboutOne } from './layouts/AboutOne';
+import { Separator } from './components/Separator';
+import { AboutMe } from './layouts/AboutMe';
+import { Experiences } from './layouts/Experiences';
+import { LatestProjects } from './layouts/LatestProjects';
+import { MyArts } from './layouts/MyArts';
+import { Contact } from './layouts/Contact';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    globalStyles();
+    return (
+        <>
+            <Header />
+            <AboutOne />
+            <Separator top={80} bottom={80} />
+            <AboutMe />
+            <Experiences />
+            <LatestProjects />
+            <Separator top={80} bottom={80} />
+            <MyArts />
+            <Contact />
+        </>
+    );
 }
 
 export default App;
