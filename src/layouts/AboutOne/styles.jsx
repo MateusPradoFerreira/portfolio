@@ -2,21 +2,31 @@ import { keyShow, styled } from '../../globalStyles';
 
 export const Container = styled('section', {
     layout: 1240,
-    padding: '0 20px',
+    padding: '0 40px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
+
+    "@mobile": {
+        flexDirection: "column",
+        justifyContent: 'center',
+    }
 });
 
 export const Infos = styled('div', {
     maxWidth: 590,
     marginTop: 60,
+
+    "@mobile": {
+        order: 2,
+    }
 });
 
 export const Heading = styled('h1', {
     fontSize: 55,
     fontWeight: 300,
     animation: `${keyShow} 1s ease-in-out`,
+    letterSpacing: -0.4
 });
 
 export const OccupationArea = styled('h2', {
@@ -25,6 +35,7 @@ export const OccupationArea = styled('h2', {
     textTransform: 'uppercase',
     marginTop: 10,
     animation: `${keyShow} 1s ease-in-out`,
+    letterSpacing: 0.4,
 
     span: {
         color: '$purple500',
@@ -37,6 +48,7 @@ export const Text = styled('p', {
     lineHeight: '25px',
     fontSize: 16,
     animation: `${keyShow} 1s ease-in-out`,
+    letterSpacing: 0.4
 });
 
 export const Button = styled('button', {
@@ -57,9 +69,17 @@ export const Button = styled('button', {
         color: '$white',
         backgroundColor: '$purple500',
     },
+
+    "@mobile": {
+        marginTop: 30,
+    }
 });
 
 export const Photo = styled('img', {
     width: 500,
     animation: `${keyShow} 1s ease-in-out`,
+
+    "@mobile": {
+        width: "100%",
+    }
 });

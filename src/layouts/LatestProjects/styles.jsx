@@ -2,7 +2,7 @@ import { keyRadiiVariantMove, styled } from '../../globalStyles';
 
 export const Container = styled('div', {
     layout: 1240,
-    padding: '0 20px',
+    padding: '0 40px',
 });
 
 export const Heading = styled('h1', {
@@ -22,21 +22,30 @@ export const SummaryText = styled('p', {
 });
 
 export const ProjectsContainer = styled('div', {
-    display: 'flex',
-    justifyContent: 'space-between',
-    flexWrap: 'wrap',
+    columnCount: 3,
     marginTop: 60,
     gap: 30,
+
+    "@md": {
+        columnCount: 2,
+    },
+    
+    "@sm": {
+        columnCount: 1,
+    },
+
+    
 });
 
-export const ProjectBox = styled('div', {
-    width: 350,
+export const ProjectBox = styled('a', {
+    width: "100%",
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     textDecoration: 'none',
     transition: 'all 0.2s',
     cursor: 'pointer',
+    marginBottom: 24,
 
     '&:hover': {
         scale: 1.1,
@@ -57,7 +66,7 @@ export const ProjectBox = styled('div', {
 });
 
 export const ProjectImg = styled('img', {
-    width: 350,
+    width: "100%",
     height: 170,
     objectFit: 'cover',
     boxShadow: '0px 5px 10px rgba(0, 0, 0, 0.25)',

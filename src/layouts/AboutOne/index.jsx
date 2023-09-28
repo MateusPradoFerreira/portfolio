@@ -22,7 +22,7 @@ export function AboutOne() {
                     Sou Mateus do Prado Ferreira, designer e desenvolvedor
                     react, formado no Instituto Federal de Educação, Ciência e
                     Tecnologia de Rondônia. <br /> Precisando de um
-                    designer/desenvolvedor? Vamos trabalhar juntos!
+                    desenvolvedor? Vamos trabalhar juntos!
                 </Text>
                 <a href="#Contact">
                     <Button>contate-me</Button>

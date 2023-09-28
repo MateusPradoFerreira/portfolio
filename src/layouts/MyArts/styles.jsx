@@ -2,7 +2,7 @@ import { styled } from '../../globalStyles';
 
 export const Container = styled('div', {
     layout: 1240,
-    padding: '0 20px',
+    padding: '0 40px',
     paddingBottom: 30,
 });
 

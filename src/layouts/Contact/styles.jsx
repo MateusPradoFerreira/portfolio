@@ -6,11 +6,15 @@ export const Container = styled('div', {
     paddingBottom: 80,
     paddingTop: 80,
     marginTop: -20,
+
+    "@mobile": {
+        paddingBottom: 28,
+    }
 });
 
 export const Content = styled('div', {
     layout: 1240,
-    padding: '0 20px',
+    padding: '0 40px',
 });
 
 export const WavePurple = styled('img', {
@@ -40,10 +44,21 @@ export const PersonalInformation = styled('div', {
     justifyContent: 'space-between',
     borderBottom: '2px solid #FFFFFF',
     paddingBottom: 30,
+
+    "@mobile": {
+        flexDirection: "column",
+        borderBottom: "none",
+    }
 });
 
 export const Infos = styled('div', {
     maxWidth: 435,
+    
+    "@mobile": {
+        marginBottom: 24,
+        maxWidth: "none",
+        width: "100%",
+    }
 });
 
 export const Head = styled('h2', {
@@ -118,6 +133,10 @@ export const NavBar = styled('nav', {
     display: 'flex',
     justifyContent: 'center',
     gap: 30,
+
+    "@mobile": {
+        display: "none",
+    }
 });
 
 export const Item = styled('a', {
@@ -143,6 +162,11 @@ export const ContactFormRow = styled('div', {
     display: 'flex',
     gap: 15,
     justifyContent: 'end',
+
+    "@mobile": {
+        minWidth: "100%",
+        width: "100%",
+    }
 });
 
 export const Input = styled('input', {

@@ -17,25 +17,10 @@ export function AboutMe() {
         <Img src={IMGAboutMe} alt="" />
         <Description>
           <p>
-            Mateus do Prado Ferreira, 18 anos… Sou Web Developer e Web Designer,
-            formado como técnico em informática pelo Instituto Federal de
-            Educação, Ciência e Tecnologia de Rondônia. Comecei a programar há 3
-            anos, tendo realizado diversos projetos - tanto de ensino quanto
-            pessoais - em diferentes áreas, desde trabalhos com a Unity até
-            blogs. Há aproximadamente 1 ano e meio, me fixei no desenvolvimento
-            e design web.
+            Olá, sou Mateus do Prado Ferreira, um jovem Web Developer e Web Designer com paixão pelo mundo digital. Sou formado como técnico em informática pelo Instituto Federal de Educação, Ciência e Tecnologia de Rondônia. Meu fascínio pela programação começou há 3 anos, e desde então tenho trabalhado em uma variedade de projetos, incluindo trabalhos de ensino e projetos pessoais em diversas áreas, que vão desde o desenvolvimento de aplicações web com React, Angular e Next até a criação de jogos complexos com Unity e GameMaker
           </p>
           <p>
-            Tenho grande paixão pelo visual, pelo senso de estética, o que,
-            junto do gosto por lógica, me levou a me apegar firmemente a área de
-            front end. Aplicar o que eu aprendi no Instituto, para construir
-            aplicações incríveis, e que geram experiências únicas aos seus
-            usuários, é simplesmente deslumbrante.
-          </p>
-          <p>
-            Atualmente, busco por experiência profissional na área de
-            desenvolvimento. Apesar da inexperiência, acredito que posso ofertar
-            um trabalho de qualidade e de confiança.
+            Minha verdadeira paixão está no design e na estética visual, e é por isso que me dedico de forma sólida à área de front-end. Adoro combinar minha afinidade pela lógica com minha apreciação pelo design para criar experiências incríveis para os usuários. Colocar em prática o conhecimento adquirido no Instituto para construir aplicativos web impressionantes, capazes de proporcionar experiências únicas, é algo que me encanta profundamente.
           </p>
         </Description>
       </ContainerInfos>

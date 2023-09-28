@@ -7,7 +7,7 @@ export const Container = styled('div', {
 });
 
 export const Content = styled('div', {
-    padding: '0 20px',
+    padding: '0 40px',
     paddingBottom: 40,
     layout: 1240,
 });
@@ -23,6 +23,10 @@ export const General = styled('div', {
     justifyContent: 'space-between',
     gap: 60,
     marginTop: 30,
+
+    "@mobile": {
+        flexDirection: "column",
+    }
 });
 
 export const Heading = styled('h1', {
@@ -63,18 +67,26 @@ export const TechnologiesContainer = styled('div', {
     flexWrap: 'wrap',
     maxWidth: 660,
     gap: '15px',
+
+    "@mobile": {
+        maxWidth: "100%",
+    }
 });
 
 export const ExperiencesContainer = styled('div', {
-    width: 495,
+    width: 426,
     backgroundColor: '$grey50',
     boxShadow: '0px 10px 10px rgba(30, 30, 30, 0.25)',
     borderRadius: '30px 10px 30px 10px',
-    padding: '40px 60px',
+    padding: '40px 24px',
     filter: ' drop-shadow(5px 5px 5px #000000)',
     minHeight: 520,
     flexShrink: 0,
     animation: `${keyRadiiVariantMove} 5s infinite alternate ease-in-out`,
+
+    "@mobile": {
+        width: "100%",
+    }
 });
 
 export const TechnologieBox = styled('div', {
@@ -101,6 +113,11 @@ export const TechnologieBox = styled('div', {
         color: '$white',
         fontFamily: '$Poppins',
     },
+
+    "@mobile": {
+        flexDirection: "column",
+        width: "100%",
+    }
 });
 
 export const TechnologieIcon = css({
@@ -116,7 +133,7 @@ export const ExperienceBox = styled('div', {
     display: 'flex',
     justifyContent: 'end',
     gap: 15,
-    marginBottom: 20,
+    marginBottom: 16,
 
     display: 'none',
 
@@ -131,7 +148,6 @@ export const ExperienceBox = styled('div', {
 });
 
 export const ExperienceInfos = styled('div', {
-    width: '85%',
 });
 
 export const Period = styled('p', {
@@ -139,7 +155,7 @@ export const Period = styled('p', {
     fontSize: 12,
     color: '$grey700',
     textTransform: 'capitalize',
-    marginBottom: 5,
+    marginBottom: 2,
 });
 
 export const Area = styled('h3', {
@@ -152,8 +168,8 @@ export const Area = styled('h3', {
 export const ExperienceDescription = styled('p', {
     textAlign: 'right',
     fontSize: 14,
-    marginTop: 10,
-    marginBottom: 10,
+    marginTop: 5,
+    marginBottom: 5,
 });
 
 export const SideDecoration = styled('div', {

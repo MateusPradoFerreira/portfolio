@@ -28,8 +28,10 @@ export const { css, styled, globalCss } = createStitches({
         }),
     },
     media: {
-        mobile: '(max-width: 640px)',
+        mobile: '(max-width: 1199px)',
         desktop: '(max-width: 1440px)',
+        md: '(max-width: 824px)',
+        sm: '(max-width: 600px)',
     },
 });
 

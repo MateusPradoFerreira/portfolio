@@ -14,12 +14,12 @@ function App() {
         <>
             <Header />
             <AboutOne />
-            <Separator top={80} bottom={80} />
+            <Separator top={60} bottom={60} />
             <AboutMe />
             <Experiences />
             <LatestProjects />
-            <Separator top={80} bottom={80} />
-            <MyArts />
+            <Separator top={60} bottom={60} />
+            {/* <MyArts /> */}
             <Contact />
         </>
     );

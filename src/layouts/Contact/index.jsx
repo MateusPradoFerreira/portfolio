@@ -67,16 +67,16 @@ export function Contact() {
                             </IndividualContact>
 
                             <SocialMediaIcons>
-                                <Icon2 href="https://github.com/MateusPratu">
+                                <Icon2 href="https://github.com/MateusPratu" target='_blank'>
                                     <BsGithub className={Icon2CSS()} />
                                 </Icon2>
-                                <Icon2 href="https://www.linkedin.com/in/mateus-do-prado-8820a6257/">
+                                <Icon2 href="https://www.linkedin.com/in/mateus-do-prado-8820a6257/" target='_blank'>
                                     <FaLinkedinIn className={Icon2CSS()} />
                                 </Icon2>
-                                <Icon2 href="https://www.instagram.com/mateuspratu/">
+                                <Icon2 href="https://www.instagram.com/mateuspratu/" target='_blank'>
                                     <BsInstagram className={Icon2CSS()} />
                                 </Icon2>
-                                <Icon2 href="https://www.figma.com/files/user/1088902559154225133?fuid=1088902559154225133">
+                                <Icon2 href="https://www.figma.com/files/user/1088902559154225133?fuid=1088902559154225133" target='_blank'>
                                     <FiFigma className={Icon2CSS()} />
                                 </Icon2>
                             </SocialMediaIcons>

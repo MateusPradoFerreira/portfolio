@@ -103,10 +103,7 @@ export const Project = ({ src, name, area, shortly, href }) => {
     }
 
     return (
-        <ProjectBox
-            shortly={shortly}
-            onClick={() => handleRedirectUserToTheLink(shortly, href)}
-        >
+        <ProjectBox shortly={shortly} href={href} target='_blank'>
             <ProjectImg src={shortly ? IMGembreve : src} alt="project image" />
             <ProjectName>{shortly ? 'Em Breve' : name}</ProjectName>
             <Area>{shortly ? 'Development || Design' : area}</Area>

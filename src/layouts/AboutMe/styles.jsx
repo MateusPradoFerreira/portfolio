@@ -2,7 +2,7 @@ import { styled } from '../../globalStyles';
 
 export const Container = styled('section', {
     layout: 1240,
-    padding: '0 20px',
+    padding: '0 40px',
 });
 
 export const Heading = styled('h1', {
@@ -25,10 +25,18 @@ export const ContainerInfos = styled('div', {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
+
+    "@mobile": {
+        flexDirection: "column",
+    }
 });
 
 export const Img = styled('img', {
     width: 570,
+
+    "@mobile": {
+        width: "100%",
+    }
 });
 
 export const Description = styled('div', {
@@ -42,6 +50,7 @@ export const Description = styled('div', {
         maxWidth: 480,
         fontSize: 16,
         lineHeight: '25px',
+        letterSpacing: 0.4
     },
 
     span: {
@@ -50,4 +59,11 @@ export const Description = styled('div', {
         fontSize: 18,
         lineHeight: '25px',
     },
+
+    "@mobile": {
+        p: {
+            textAlign: 'center',
+            maxWidth: "none",
+        },
+    }
 });
