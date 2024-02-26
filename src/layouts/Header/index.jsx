@@ -37,7 +37,7 @@ export function Header() {
                 <NavItem href="#Contact" onClick={() => setOpen(!open)}>Contato</NavItem>
             </NavBar>
             <SocialMediaIcons>
-                <Icon href="https://github.com/MateusPratu" target='_blank'>
+                <Icon href="https://github.com/MateusPradoFerreira" target='_blank'>
                     <BsGithub className={IconCSS()} />
                 </Icon>
                 <Icon href="https://www.linkedin.com/in/mateus-do-prado-8820a6257/" target='_blank'>
